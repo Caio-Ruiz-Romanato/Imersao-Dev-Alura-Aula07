@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Configuração de caracteres e compatibilidade com navegador -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Título da pagina -->
+  <title>Imersão Dev - Aula 07</title>
+  <!-- Links -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Corpo da pagina -->
+
+<body>
+  <!-- Container da pagina -->
+  <div class="container">
+    <!-- Logo -->
+    <img src="./img/logo.svg" alt="Logo" />
+    <!-- Título Nível 1 -->
+    <h1>Super Trunfo</h1>
+    <!-- Botão para interagir no sorteio da carta -->
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <!-- Documento de controle interativo -->
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+      <div class="opcoes" id="opcoes"></div>
+      <!-- Botão interação jogar -->
+      <button type="button" id="btnJogar" onclick="jogar()" disabled="false">
+        Jogar
+      </button>
+    </form>
+  </div>
+  <!-- Scripts -->
+  <script src="apps.js"></script>
+</body>
+<div>
+
+</div>
+
+</html>
